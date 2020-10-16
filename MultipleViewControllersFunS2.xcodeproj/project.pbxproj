@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AE22C5B925393759006FA06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22C5B825393759006FA06A /* AppDelegate.swift */; };
 		AE22C5BB25393759006FA06A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22C5BA25393759006FA06A /* SceneDelegate.swift */; };
-		AE22C5BD25393759006FA06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22C5BC25393759006FA06A /* ViewController.swift */; };
+		AE22C5BD25393759006FA06A /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22C5BC25393759006FA06A /* InitialViewController.swift */; };
 		AE22C5C025393759006FA06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE22C5BE25393759006FA06A /* Main.storyboard */; };
 		AE22C5C22539375E006FA06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE22C5C12539375E006FA06A /* Assets.xcassets */; };
 		AE22C5C52539375E006FA06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE22C5C32539375E006FA06A /* LaunchScreen.storyboard */; };
+		AE22C5CD253937B3006FA06A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22C5CC253937B3006FA06A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE22C5B525393759006FA06A /* MultipleViewControllersFunS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleViewControllersFunS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE22C5B825393759006FA06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE22C5BA25393759006FA06A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE22C5BC25393759006FA06A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE22C5BC25393759006FA06A /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		AE22C5BF25393759006FA06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE22C5C12539375E006FA06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE22C5C42539375E006FA06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE22C5C62539375E006FA06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE22C5CC253937B3006FA06A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				AE22C5B825393759006FA06A /* AppDelegate.swift */,
 				AE22C5BA25393759006FA06A /* SceneDelegate.swift */,
-				AE22C5BC25393759006FA06A /* ViewController.swift */,
+				AE22C5BC25393759006FA06A /* InitialViewController.swift */,
 				AE22C5BE25393759006FA06A /* Main.storyboard */,
 				AE22C5C12539375E006FA06A /* Assets.xcassets */,
 				AE22C5C32539375E006FA06A /* LaunchScreen.storyboard */,
 				AE22C5C62539375E006FA06A /* Info.plist */,
+				AE22C5CC253937B3006FA06A /* SecondViewController.swift */,
 			);
 			path = MultipleViewControllersFunS2;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE22C5BD25393759006FA06A /* ViewController.swift in Sources */,
+				AE22C5CD253937B3006FA06A /* SecondViewController.swift in Sources */,
+				AE22C5BD25393759006FA06A /* InitialViewController.swift in Sources */,
 				AE22C5B925393759006FA06A /* AppDelegate.swift in Sources */,
 				AE22C5BB25393759006FA06A /* SceneDelegate.swift in Sources */,
 			);
