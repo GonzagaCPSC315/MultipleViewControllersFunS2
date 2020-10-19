@@ -42,6 +42,15 @@ class InitialViewController: UIViewController {
         // source: this is the instigating view controller
         // destination: this is the new view controller
         // identifier: this is the string you may have set up in IB
+        if let identifier = segue.identifier {
+            if identifier == "automaticSegue" {
+                // now, we want to downcast the general UIViewController for the destination view controller to SecondViewController
+                if let secondVC = segue.destination as? SecondViewController {
+                    // we want to set a property of secondVC to store the text from the username text field
+                    secondVC.usernameOptional = usernameTextField.text
+                }
+            }
+        }
         
     }
 
